@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <title>Portfolio</title>
+    <style>
+      .nav-link.active {
+        background-color: blueviolet !important;
+        color: white !important;
+        border-radius: 10%;
+      }
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#nav-scroll">
+    <!--Navbar-->
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+      id="nav-scroll"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navBar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navBar">
+          <ul class="navbar-nav ms-auto fw-bold">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item"><a href="#blog" class="nav-link">Blogs</a></li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main section-->
+
+    <section
+      id="home"
+      class="d-flex min-vh-100 flex-column justify-content-center align-items-center mb-2"
+      style="background-image: url('./imges/hero-bg.jpg')"
+    >
+      <h1 class="fw-bolder display-1 mb-3" data-aos="fade-up">Noman Ali</h1>
+      <h6
+        class="fs-3 text-secondary capitalize mb-4"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        I'm professional Front-end-Web Developer
+      </h6>
+      <div data-aos-delay="300" data-aos="fade-up">
+        <a href="#about" class="btn btn-danger rounded-pill">About Me</a>
+      </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="container py-5">
+      <div class="text-center py-5">
+        <h2 class="fw-bolder text-uppercase" data-aos="fade-up">about</h2>
+        <p data-aos="fade-up" data-aos-delay="300">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae
+          esse placeat, temporibus velit totam?
+        </p>
+      </div>
+
+      <!--More About-->
+      <div class="row">
+        <div class="col-md-4 mb-3" data-aos="fade-right" data-aos-delay="300">
+          <img src="./imges/about.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-7 offset-lg-1" data-aos="fade-left">
+          <p class="lh-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic
+            saepe facere alias nesciunt dignissimos, odio obcaecati. Quaerat,
+            praesentium. Odio dolor dolores atque eligendi ullam. Eveniet
+            tenetur minus repellat iure! Officiis itaque molestiae beatae
+            reiciendis rem soluta asperiores eum? Perferendis officiis dolore
+            sunt beatae exercitationem non voluptate quos nobis aspernatur!
+          </p>
+          <!--Skills set-->
+          <p class="fw-bold fs-4">My Skills</p>
+          <p>HTML:</p>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary progress-bar-striped"
+              style="width: 85%"
+            >
+              85%
+            </div>
+          </div>
+          <p>CSS3:</p>
+          <div class="progress">
+            <div
+              class="progress-bar bg-success progress-bar-striped"
+              style="width: 80%"
+            >
+              80%
+            </div>
+          </div>
+          <p>JS:</p>
+          <div class="progress">
+            <div
+              class="progress-bar bg-danger progress-bar-striped"
+              style="width: 75%"
+            >
+              75%
+            </div>
+          </div>
+          <p>React:</p>
+          <div class="progress">
+            <div
+              class="progress-bar bg-warning progress-bar-striped"
+              style="width: 70%"
+            >
+              70%
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Portofolio section-->
+    <section id="portfolio" class="bg-dark py-5 mt-5">
+      <div class="container">
+        <div class="text-center py-5 text-white" data-aos="fade-up">
+          <h2 class="fw-bolder text-uppercase">my portfolio</h2>
+          <p class="">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+            quibusdam consectetur ad id nam porro.
+          </p>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-6 col-lg-4 mb-3"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <img
+              src="./imges/img1.jpg"
+              alt=""
+              class="img-fluid img-thumbnail"
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <img
+              src="./imges/img2.jpg"
+              alt=""
+              class="img-fluid img-thumbnail"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <img
+              src="./imges/img3.jpg"
+              alt=""
+              class="img-fluid img-thumbnail"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <img
+              src="./imges/img4.jpg"
+              alt=""
+              class="img-fluid img-thumbnail"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <img
+              src="./imges/img5.jpg"
+              alt=""
+              class="img-fluid img-thumbnail"
+              data-aos="fade-up"
+              data-aos-delay="700"
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <img
+              src="./imges/img6.jpg"
+              alt=""
+              class="img-fluid img-thumbnail"
+              data-aos="fade-up"
+              data-aos-delay="800"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Blogs-->
+    <section id="blog" class="container py-5 mb-10">
+      <div class="text-center py-5">
+        <h2 class="fw-bolder text-uppercase" data-aos="fade-up">my blogs</h2>
+        <p class="" data-aos="fade-up" data-aos-delay="500">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+          quibusdam consectetur ad id nam porro.
+        </p>
+      </div>
+
+      <div class="row">
+        <div
+          class="col-lg-4 col-md-6 mb-4"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <div class="card">
+            <img src="./imges/img7.jpg" alt="" class="card-top" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Entertainments</h5>
+              <p class="card-text py-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                laudantium?
+              </p>
+              <a href="#" class="btn btn-light">Read More...</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-6 mb-4"
+          data-aos="fade-up"
+          data-aos-delay="600"
+        >
+          <div class="card">
+            <img src="./imges/img6.jpg" alt="" class="card-top" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Entertainments</h5>
+              <p class="card-text py-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                laudantium?
+              </p>
+              <a href="#" class="btn btn-light">Read More...</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-6 mb-4"
+          data-aos="fade-up"
+          data-aos-delay="900"
+        >
+          <div class="card">
+            <img src="./imges/img5.jpg" alt="" class="card-top" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Entertainments</h5>
+              <p class="card-text py-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                laudantium?
+              </p>
+              <a href="#" class="btn btn-light">Read More...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact" class="bg-dark py-5 mt-10">
+      <div class="container">
+        <div class="text-center py-5 text-white">
+          <h2 class="fw-bolder text-uppercase" data-aos="fade-up">
+            Contact Me
+          </h2>
+          <p class="" data-aos="fade-up" data-aos-delay="400">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+            quibusdam consectetur ad id nam porro.
+          </p>
+        </div>
+        <div class="col-6 mx-auto col-sm-10 col-md-9 col-lg-8 col-xl-6">
+          <form action="" class="text-white" data-aos="fade-up">
+            <div class="mb-3">
+              <label for="name" class="label-form">Your Name</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="label-form">Your Email</label>
+              <input type="email" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="label-form">Your Subject</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="label-form">Your Message</label>
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                class="form-control"
+              ></textarea>
+            </div>
+          </form>
+          <button type="submit" class="btn btn-danger">Send Message</button>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <secrtion class="bg-light">
+      <container class="text-center">
+        <p class="mb-0 py-3 fs-5">All rights reserved by NomanTech</p>
+      </container>
+    </secrtion>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000 });
+    </script>
+  </body>
+</html>
